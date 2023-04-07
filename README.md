@@ -9,7 +9,6 @@ Web Activity Tracker è una libreria JavaScript che traccia tutte le azioni degl
   <li>Naviga nella cartella del tuo progetto.</li>
   <li>Esegui il comando <code>npm install web-activity-tracker --save</code>.</li>
 </ol>
-<strong>Utilizzo</strong>
 
 Per utilizzare la libreria Web Activity Tracker nel tuo progetto, segui questi passaggi:
 
@@ -19,6 +18,7 @@ Per utilizzare la libreria Web Activity Tracker nel tuo progetto, segui questi p
   <li>Inizializza la libreria: <code>tracker.init()</code>.</li>
   <li>Ora la libreria traccerà tutte le azioni degli utenti sul tuo sito web.</li>
 </ol>
+
 # Caratteristiche
 La libreria Web Activity Tracker offre le seguenti funzionalità:
 <ul>
