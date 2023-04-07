@@ -29,6 +29,90 @@ La libreria Web Activity Tracker offre le seguenti funzionalità:
   <li><b>Tracciamento degli errori JavaScript</b>, con informazioni sul tipo di errore, il messaggio di errore, lo stack trace e altro ancora.</li>
 </ul>
 
+#Esempio dei dati in formato Json
+
+```json
+{
+  "user": {
+    "id": "1234567890",
+    "name": "Mario Rossi",
+    "email": "mario.rossi@example.com",
+    "phone": "+39 123 4567890",
+    "country": "Italy",
+    "region": "Lombardy",
+    "city": "Milan",
+    "timezone": "Europe/Rome"
+  },
+  "page": {
+    "url": "https://www.example.com/",
+    "title": "Example",
+    "description": "A website for examples",
+    "keywords": ["example", "website", "demo"],
+    "language": "en-US"
+  },
+  "events": [
+    {
+      "type": "click",
+      "target": "button#submit",
+      "x": 123,
+      "y": 456,
+      "timestamp": 1649416800000
+    },
+    {
+      "type": "scroll",
+      "position": 789,
+      "direction": "down",
+      "timestamp": 1649417000000
+    },
+    {
+      "type": "visitDuration",
+      "duration": 3600,
+      "enteredAt": 1649416600000,
+      "leftAt": 1649420200000
+    },
+    {
+      "type": "navigation",
+      "url": "https://www.example.com/about",
+      "order": 2,
+      "timestamp": 1649420800000
+    },
+    {
+      "type": "formInput",
+      "target": "input#username",
+      "value": "mario",
+      "interactionType": "focus",
+      "timestamp": 1649422000000
+    },
+    {
+      "type": "deviceInfo",
+      "deviceType": "desktop",
+      "operatingSystem": "Windows 10",
+      "browser": "Chrome",
+      "screenResolution": "1920x1080"
+    },
+    {
+      "type": "geolocation",
+      "country": "Italy",
+      "region": "Lombardy",
+      "city": "Milan",
+      "timezone": "Europe/Rome"
+    },
+    {
+      "type": "mediaInteraction",
+      "target": "video#player",
+      "interactionType": "play",
+      "timestamp": 1649424400000
+    },
+    {
+      "type": "error",
+      "errorMessage": "Uncaught TypeError: Cannot read property 'x' of undefined",
+      "errorType": "TypeError",
+      "stackTrace": "at Object.myFunction (https://www.example.com/js/main.js:10:15)\nat ..."
+    }
+  ]
+}
+```
+
 # Contributi
 Se vuoi contribuire al progetto Web Activity Tracker, puoi fare quanto segue:
 
