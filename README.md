@@ -1,5 +1,11 @@
 # Web Activity Tracker
 Web Activity Tracker è una libreria JavaScript che traccia tutte le azioni degli utenti sul tuo sito web. Questa libreria può aiutare i proprietari di siti web a capire come gli utenti interagiscono con il loro sito web e a migliorare l'esperienza dell'utente.
+<ul>
+<li>Utilizzabile e compatibile con :</li>
+<li>React</li>
+<li>Angular</li>
+<li>Vue</li>
+</ul>
 
 # Installazione
 <strong>Per installare la libreria Web Activity Tracker, segui questi passaggi:</strong>
