@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/andreainzaghi/webjs_data_tracker#readme",
   "peerDependencies": {
-    "react": "^16.0.0 || ^17.0.0",
+    "react": "^16.0.0 || ^18.2.0",
     "angular": "^11.0.0",
     "vue": "^3.0.0"
   },
