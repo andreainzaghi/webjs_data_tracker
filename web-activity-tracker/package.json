@@ -1,0 +1,35 @@
+{
+  "name": "web-activity-tracker",
+  "version": "1.0.0",
+  "description": "Libreria adatta al tracking delle azioni da parte dell'utente sul tuto sito web",
+  "main": "dist/web-activity-tracker.js",
+  "module": "dist/web-activity-tracker.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreainzaghi/webjs_data_tracker.git"
+  },
+  "keywords": [
+    "tracker",
+    "user",
+    "info",
+    "data"
+  ],
+  "author": "Andrea Inzaghi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreainzaghi/webjs_data_tracker/issues"
+  },
+  "homepage": "https://github.com/andreainzaghi/webjs_data_tracker#readme",
+  "peerDependencies": {
+    "react": "^16.0.0 || ^17.0.0",
+    "angular": "^11.0.0",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.78.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
