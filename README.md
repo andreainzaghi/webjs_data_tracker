@@ -135,11 +135,13 @@ I dati generati dalla tua libreria possono essere utilizzati per vari scopi di a
 # Contributi
 Se vuoi contribuire al progetto Web Activity Tracker, puoi fare quanto segue:
 
-Fai una fork del repository.
-Crea un nuovo branch con la tua modifica: git checkout -b my-feature.
-Fai il commit delle tue modifiche: git commit -am 'Add new feature'.
-Pusha il tuo branch: git push origin my-feature.
-Invia una pull request.
+<ol>
+  <li>Fai una fork del repository.</li>
+  <li>Crea un nuovo branch con la tua modifica: <code>git checkout -b my-feature</code>.</li>
+  <li>Fai il commit delle tue modifiche: <code>git commit -am 'Add new feature'</code>.</li>
+  <li>Pusha il tuo branch: <code>git push origin my-feature</code>.</li>
+  <li>Invia una pull request.</li>
+</ol>
 
 # Licenza
 Web Activity Tracker è rilasciata sotto la licenza ISC. Per ulteriori informazioni sulla licenza, consulta il file LICENSE.md.
