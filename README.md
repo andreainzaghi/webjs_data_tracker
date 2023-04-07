@@ -28,6 +28,7 @@ La libreria Web Activity Tracker offre le seguenti funzionalità:
   <li><b>Tracciamento delle interazioni con elementi multimediali</b> come video e audio, con informazioni sul tipo di interazione, il timestamp e altro ancora.</li>
   <li><b>Tracciamento degli errori JavaScript</b>, con informazioni sul tipo di errore, il messaggio di errore, lo stack trace e altro ancora.</li>
 </ul>
+
 # Contributi
 Se vuoi contribuire al progetto Web Activity Tracker, puoi fare quanto segue:
 
